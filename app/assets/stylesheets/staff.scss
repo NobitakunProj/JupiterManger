@@ -1,0 +1,62 @@
+// Place all the styles related to the staff controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+#staff-box {
+  width: 1200px;
+  margin: 0 auto;
+  #staff-head {
+    display: flex;
+
+    .staff-td {
+      cursor: pointer;
+      min-width: 20%;
+      padding: 10px;
+      border-bottom: 1px solid #2E2F30;
+    }
+  }
+}
+
+.middle-box {
+  width: 250px;
+  height: 45px;
+}
+.short-box {
+  width: 150px;
+  height: 45px;
+}
+.div-box {
+  margin-top: 20px;
+  .h {
+    font-size: 15px;
+    font-weight: bold;
+    color: #2E2F30;
+  }
+}
+
+.flat-btn {
+  margin: 0;
+  width: 150px;
+  height: 45px;
+  background: #ffffff;
+  color: #2E2F30;
+  border: 2px solid #2E2F30;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.mrg10 {
+  margin-left: 10px;
+}
+
+.half-panel {
+  width: 50%;
+  //background: #2E2F30;
+}
+
+.right-panel {
+  margin-right: 10px;
+}
+
+.non-box {
+  border: none;
+}

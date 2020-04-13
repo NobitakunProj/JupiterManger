@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JupiterManger</title>
+</head>
+<body>
+<div id="contents">
+  <%= render 'Templates/base' %>
+  <div id="inner-contents" class="flex-box">
+    <!--   　スタッフ追加モード -->
+    <div class="half-panel">
+      <div class="per-title">
+        # Staff Master 【ADD】
+        <a href="/">>HOME</a>
+      </div>
+      <div class="div-box">
+        <div class="h">
+          社員ID
+        </div>
+        <input type="text" name="s-number" id="" class="short-box" placeholder="社員ID">
+      </div>
+      <div class="div-box">
+        <div class="h">
+          社員名
+        </div>
+        <input type="text" name="s-number" id="" class="middle-box" placeholder="社員名">
+      </div>
+      <div class="div-box">
+        <div class="h">
+          部署
+        </div>
+        <select name="Dept1" id="" class="short-box">
+          <option value="test">TEST</option>
+        </select>
+      </div>
+      <div class="div-box">
+        <div class="h">
+          課
+        </div>
+        <select name="Dept2" id="" class="short-box">
+          <option value="test">TEST</option>
+        </select>
+      </div>
+      <div class="div-box">
+        <div class="h">
+          チーム
+        </div>
+        <select name="Dept3" id="" class="short-box">
+          <option value="test">TEST</option>
+        </select>
+        <input type="button" value="submit" class="short-box flat-btn mrg10">
+      </div>
+    </div>
+    <div class="half-panel right-panel">
+<!--      部署追加-->
+      <div class="block">
+        <div class="per-title"># 各種追加</div>
+        <div class="div-box">
+          <div class="h">
+            部署
+          </div>
+          <input type="text" name="add-type" id="" class="short-box" placeholder="部署名">
+          <input type="button" value="追加" class="short-box flat-btn">
+        </div>
+      </div>
+<!--      課追加-->
+      <div class="block">
+        <div class="div-box">
+          <div class="h">
+            課
+          </div>
+          <input type="text" name="add-type" id="" class="short-box" placeholder="課名">
+          <input type="button" value="追加" class="short-box flat-btn">
+        </div>
+      </div>
+      <!--    チーム追加-->
+      <div class="block">
+        <div class="div-box">
+          <div class="h">
+            チーム
+          </div>
+          <input type="text" name="add-type" id="" class="short-box" placeholder="チーム名">
+          <input type="button" value="追加" class="short-box flat-btn">
+        </div>
+      </div>
+    </div>
+
+  </div>
+    <!--   　スタッフ追加モード -->
+  </div>
+</div>
+</body>
+</html>

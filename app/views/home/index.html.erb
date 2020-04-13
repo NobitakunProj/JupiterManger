@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JupiterManger</title>
+</head>
+<body>
+<div id="contents">
+  <%= render 'Templates/base' %>
+  <div id="inner-contents">
+    <div class="per-title">
+      # Staff Master
+    </div>
+    <!--    ロールに応じて見れる範囲が可変する-->
+    <div class="role-section">
+      <div id="role-1" class="role">
+        <a href="/staff/view" class="box">スタッフマスタ閲覧</a>
+      </div>
+      <div id="role-2" class="role">
+        <a href="/staff/create">スタッフマスタ登録</a>
+      </div>
+      <div id="role-3" class="role">
+        <a href="/staff/update">スタッフマスタ変更</a>
+      </div>
+      <div id="role-4" class="role">
+        <a href="/staff/delete">スタッフマスタ削除</a>
+      </div>
+    </div>
+    <!--    ロールに応じて見れる範囲が可変する-->
+  </div>
+</div>
+</body>
+</html>
